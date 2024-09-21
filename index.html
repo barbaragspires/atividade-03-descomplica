@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Escola de Idiomas</title>
+	<link rel="shortcut icon" href="imagens/logo.ico" type="image/x-icon">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<header>
+		<div class="container-fluid text-center bg-container">
+			<img src="imagens/logo.png" alt="Curso Hello World" width="250" height="250">
+		</div>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary text-end">
+			<div class="container-fluid align-items-end">
+				<a class="navbar-brand" href="#"></a> 
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link text-light" href="#"> Nossa Escola</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Cursos
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Inglês</a></li>
+								<li><a class="dropdown-item" href="#">Espanhol</a></li>
+								<li><a class="dropdown-item" href="#">Francês</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Mais cursos</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light" href="#">Fale Conosco</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container mt-5">
+		<div id="carouselExampleCaptions" class="carousel slide d-flex justify-content-center mx-auto">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="imagens/writing-book-rea.jpg" class="d-block w-100" alt="Selo de Qualidade">
+					<div class="carousel-caption d-none d-md-block text-personalizado fs-1 top-0">
+						<h5>COMPROMISSO DE APRENDIZADO</h5>
+						<p>Acompanhamento personalizado do seu aprendizado e plano individual de estudos!</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="imagens/study.jpg" class="d-block w-100" alt="Livros">
+					<div class="carousel-caption d-none d-md-block text-personalizado fs-1">
+						<h5>ADAPTAÇÃO A SUA ROTINA</h5>
+						<p>Presencial ou on-line. Em turma ou individual. Você escolhe como quer aprender o novo idioma.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="imagens/flag.jpg" class="d-block w-100" alt="Bandeira dos EUA">
+					<div class="carousel-caption d-none d-md-block text-personalizado fs-1">
+						<h5>CERTIFICADO DE PROFICIÊNCIA EM INGLÊS</h5>
+						<p>Comprove seu conhecimento de inglês e seja reconhecido</p>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<div class="container-cards d-flex justify-content-center align-items-stretch m-5 gap-5 flex-wrap">
+		<div class="card p-3 shadow" style="width: 15rem;">
+			<img src="imagens/flag-usa.png" class="card-img-top" alt="Imagem da bandeira dos EUA">
+			<div class="card-body d-flex flex-column">
+				<h5 class="card-title text-center">Inglês</h5>
+				<p class="card-text">Aulas de inglês do básico ao avançado e com flexibilidade de turmas e horários.
+					 Curso para quem busca a fluência no idioma, conquistar melhores oportunidades de carreira profissional e se comunicar em viagens ao exterior.</p>
+				<a href="#" class="btn btn-primary mt-auto">Conheça a turma</a>
+			</div>
+		</div>
+		<div class="card p-3 shadow" style="width: 15rem;">
+			<img src="imagens/flag-spanish.png" class="card-img-top" alt="Imagem da bandeira da Espanha">
+			<div class="card-body d-flex flex-column">
+				<h5 class="card-title text-center">Espanhol</h5>
+				<p class="card-text">Aprenda a falar a língua espanhola com qualidade exclusiva e professores preparados
+					Condições comerciais especiais para você começar a estudar espanhol na maior rede de ensino de idiomas do mundo.</p>
+				<a href="#" class="btn btn-primary mt-auto">Conheça a turma</a>
+			</div>
+		</div>
+		<div class="card p-3 shadow" style="width: 15rem;">
+			<img src="imagens/flag-fr.png" class="card-img-top" alt="Imagem da bandeira da França">
+			<div class="card-body d-flex flex-column">
+				<h5 class="card-title text-center">Francês</h5>
+				<p class="card-text">Você aprende francês de maneira simples e contínua, e desenvolve as habilidades de comunicação para se tornar fluente na língua francesa: fala, audição, leitura e escrita. Condições comerciais especiais para você começar a estudar</p>
+				<a href="#" class="btn btn-primary">Conheça a turma</a>
+			</div>
+		</div>
+	</div>
+	<div class="container text-center mb-5">
+		<div class="row">
+			<div class="col bg-img-faixaetaria1 rounded">
+			<img src="imagens/crianca-faixaetaria.png" class="img-fluid w-50" alt="Imagem de uma criança sorrindo">
+			<h2>CRIANÇAS</h2>
+			 <h3>de 3 a 9 anos</h3>
+			 <p>Investir em um curso de idiomas para seu filho é abrir as portas do mundo, proporcionando a ele a oportunidade de se comunicar, aprender e crescer em um ambiente global!</p>
+			</div>
+			<div class="col bg-img-faixaetaria2">
+				<img src="imagens/adolescente-faixaetaria.png" class="img-fluid w-50" alt="Imagem de uma adolescente">
+				<h2>ADOLESCENTES</h2>
+				<h3>A partir dos 12 anos</h3>
+				<p>Aprender um novo idioma é como ganhar uma chave para explorar o mundo; te conecta a novas culturas, amizades e oportunidades incríveis que vão além da sala de aula!</p>
+			</div>
+			<div class="col bg-img-faixaetaria3 rounded" >
+				<img src="imagens/adulto-faixaetaria.png" class="img-fluid w-50" alt="Imagem de um adulto">
+				<h2>ADULTOS</h2>
+				<h3>A partir dos 16 anos</h3>
+				<p>Aprender um novo idioma não só enriquece sua vida profissional, mas também expande seus horizontes pessoais, permitindo que você se conecte com pessoas e culturas de maneira mais profunda e significativa</p>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

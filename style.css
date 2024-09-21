@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.bg-body-tertiary {
+	background-color: #4A90E2 !important;
+}
+.nav-link:hover{
+	color: #F8E71C !important;
+}
+ .bg-container{
+	background-color: #F8E71C;
+}
+.card {
+	min-width: 240px;
+}
+.btn-primary {
+	background-color: #4A90E2 !important;
+}
+.btn-primary:hover {
+	background-color: #3c77bd !important;
+
+}
+.d-block {
+	max-height: 480px;
+}
+.text-personalizado {
+	font-weight: bold;
+	text-shadow: 1px 4px 6px black;;
+	
+}
+.bg-img-faixaetaria1 {
+	background-color: #c0edc0;
+
+}
+.bg-img-faixaetaria2{
+background-color: #f5e79a;
+}
+.bg-img-faixaetaria3 {
+background-color: #b6d7f4;
+}
