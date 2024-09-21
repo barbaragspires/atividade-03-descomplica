@@ -5,10 +5,9 @@
 }
 .nav-link:hover{
 	color: #F8E71C !important;
+	font-weight: bold;
 }
- .bg-container{
-	background-color: #F8E71C;
-}
+
 .card {
 	min-width: 240px;
 }
