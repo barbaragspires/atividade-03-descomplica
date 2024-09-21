@@ -1,13 +1,15 @@
 @charset "UTF-8";
 
-.bg-body-tertiary {
-	background-color: #4A90E2 !important;
+.bg-body{
+	background-color: #4a91e2d5 !important;
 }
 .nav-link:hover{
-	color: #F8E71C !important;
-	font-weight: bold;
+	color: #F8E71C !important;	
 }
 
+.dropdown-item:hover, .dropdown-item:focus {
+	background-color: #b6d7f498 }
+	
 .card {
 	min-width: 240px;
 }
@@ -35,4 +37,18 @@ background-color: #f5e79a;
 }
 .bg-img-faixaetaria3 {
 background-color: #b6d7f4;
+}
+.bg-faleconosco {
+	background-color: #b6d7f43a;
+}
+.bg-footer {
+	background-color:#4a91e2d5 ;
+	font-size: 12px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #f5e79a;
 }
